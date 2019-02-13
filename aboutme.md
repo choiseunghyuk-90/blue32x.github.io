@@ -4,11 +4,17 @@ title: About me
 subtitle: About me
 ---
 
-My name is seunghyuk.choi.
+Name : seunghyuk.choi.
 
+Birth : 1990.12.16
 
-What else do you need?
+Hobby : leather Crafts
+
+When I have problem, I always think of this sentence.
+"Don't be lazy, Don't give up!" 
 
 ### my history
-linkedIn : [https://www.linkedin.com/feed/?trk=eml-email_pymk_01-header-68-home](https://www.linkedin.com/feed/?trk=eml-email_pymk_01-header-68-home)
+Kookmin Univ	2010.03 ~ 2016.02
+
+Bankware Global 2015.12 ~ 
  
