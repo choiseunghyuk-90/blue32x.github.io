@@ -25,6 +25,8 @@ description: A virtual proof that name is awesome!
 navbar-links:
   About Me: "aboutme"
   Practice:
+    - infra :
+    - algorithm :
   Resources:
     - GitHub Pages: "https://blue32x.github.com/"
 
