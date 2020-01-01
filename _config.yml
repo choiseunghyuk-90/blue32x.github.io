@@ -25,8 +25,8 @@ description: don't be lazy
 navbar-links:
   About Me: "aboutme"
   Practice:
-    - infra:
-    - algorithm: "tags.html"
+    - infra: "infra"
+    - algorithm: "tags"
   Resources:
     - GitHub Pages: ""
 
