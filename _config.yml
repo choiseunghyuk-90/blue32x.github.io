@@ -17,7 +17,7 @@ baseurl: ""
 title: seunghyuk.choi
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: don't be lazy
 
 # --- Navigation bar options --- #
 
@@ -26,7 +26,7 @@ navbar-links:
   About Me: "aboutme"
   Practice:
     - infra:
-    - algorithm:
+    - algorithm: "index.html"
   Resources:
     - GitHub Pages: "aboutme"
 
