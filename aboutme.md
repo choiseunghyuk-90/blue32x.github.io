@@ -4,13 +4,14 @@ title: About me
 subtitle: About me
 ---
 
-Name : seunghyuk.choi.
+Name : Seunghyuk.Choi
 
 Birth : 1990.12.16
 
 Hobby : leather Crafts
 
-When I have problem, I always think of this sentence.
+When I have problems, I always think of this sentence.
+
 "Don't be lazy, Don't give up!" 
 
 ### my history
