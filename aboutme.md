@@ -10,7 +10,7 @@ Birth : 1990.12.16
 
 Hobby : leather Crafts
 
-When I have problems, I always think of this sentence.
+Whenever I have problems, I always think of this sentence.
 
 "Don't be lazy, Don't give up!" 
 
