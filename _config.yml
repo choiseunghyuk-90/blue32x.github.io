@@ -154,6 +154,12 @@ paginate: 5
 kramdown:
   input: GFM
 
+# Collections
+collections:
+  infras:
+    output: true
+
+
 # Default YAML values (more information on Jekyll's site)
 defaults:
   -
