@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Infra
+title: About GitHub
 categories: [infra]
 ---
 
