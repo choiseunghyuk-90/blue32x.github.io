@@ -1,3 +1,9 @@
+---
+layout: post
+title: paging test
+categories: [infra]
+---
+
 환경셋팅(2)
 --- 
 1. 설치 구성
