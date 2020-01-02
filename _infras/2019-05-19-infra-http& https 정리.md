@@ -1,3 +1,9 @@
+---
+layout: post
+title: About HTTP
+categories: [infra]
+---
+
 #HTTP
 ```
 HTTP(HyperText Transfer Protocol, 문화어: 초본문전송규약, 하이퍼본문전송규약)는 WWW 상에서 정보를 주고받을 수 있는 프로토콜이다.
