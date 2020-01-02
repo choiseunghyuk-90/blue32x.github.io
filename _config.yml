@@ -159,8 +159,8 @@ collections:
   infras:
     output: true
   algorithm:
-    paginate: 5
     output: true
+
 gems:
   - jekyll-paginate-v2
 
