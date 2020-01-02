@@ -57,41 +57,17 @@ use-site-title: true
 </div>
 
 
-{% assign prevflag = 1 %}
-{% assign nextflag = 1 %}
-
-{% for c in site.infras %}
-  {% if c.title == page.title %}
-    {% assign currentItemIndex = forloop.index0 %}
-    {% if forloop.index == 1 %}
-      {% assign prevflag = 0 %}
-      {% assign nextflag = 1 %}
-    {% elsif forloop.index == forloop.length %}
-      {% assign prevflag = 1 %}
-      {% assign nextflag = 0 %}
-    {% endif %}
+{% if paginator.total_pages > 1 %}
+<ul class="pager main-pager">
+  {% if paginator.previous_page %}
+  <li class="previous">
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+  </li>
   {% endif %}
-{% endfor %}
-
-{% if prevflag == 1 %}
-{% assign prevItemIndex = currentItemIndex | minus: 1 %}
-{% assign prevPost = site.infras[prevItemIndex] %}
+  {% if paginator.next_page %}
+  <li class="next">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+  </li>
+  {% endif %}
+</ul>
 {% endif %}
-
-{% if nextflag == 1 %}
-{% assign nextItemIndex = currentItemIndex | plus: 1 %}
-{% assign nextPost = site.infras[nextItemIndex] %}
-{% endif %}
-<div id="post-nav">
-  {% if prevPost.url %}
-  <a class="prev" rel="prev" href="{{ prevPost.url }}">
-    <span>&lt; prev</span>
-  </a>
-  {% endif %}
-  {% if nextPost.url %}
-  <a class="next" rel="next" href="{{ nextPost.url }}">
-    <span>next &gt;</span>
-  </a>
-  {% endif %}
-</div>
-
