@@ -158,8 +158,10 @@ kramdown:
 collections:
   infras:
     output: true
+    permalink: /:collection/:title/
   algorithm:
     output: true
+    permalink: /:collection/:title/
 
 gems:
   - jekyll-paginate-v2
