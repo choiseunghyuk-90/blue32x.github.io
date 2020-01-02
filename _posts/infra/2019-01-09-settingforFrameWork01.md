@@ -2,6 +2,9 @@
 layout: post
 title: paging test
 categories: [infra]
+pagination:
+    enabled: true
+    tag: infra
 ---
 
 환경셋팅(1)
