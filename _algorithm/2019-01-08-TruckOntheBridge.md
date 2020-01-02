@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 프로그래머스 : 다리를 지나가는 트럭
+title: 다리를 지나가는 트럭
 categories: [algorithm]
 ---
 
