@@ -158,7 +158,7 @@ kramdown:
 collections:
   infras:
     output: true
-  algos:
+  algorithm:
     output: true
 
 
