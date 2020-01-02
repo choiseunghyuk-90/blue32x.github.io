@@ -1,3 +1,9 @@
+---
+layout: post
+title: 코딜리티 Lesson 1
+categories: [algorithm]
+---
+
 코딜리티 Lesson 1
 --- 
 1. 문제

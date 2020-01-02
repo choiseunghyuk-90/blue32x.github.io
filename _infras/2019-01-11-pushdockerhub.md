@@ -1,3 +1,9 @@
+---
+layout: post
+title: docker setting
+categories: [infra]
+---
+
 ## Container to image
 ---
 ```

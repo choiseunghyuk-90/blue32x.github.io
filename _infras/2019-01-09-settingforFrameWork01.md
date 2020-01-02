@@ -1,3 +1,9 @@
+---
+layout: post
+title: frameworksetting01
+categories: [infra]
+---
+
 환경셋팅(1)
 --- 
 1. 설치 구성
