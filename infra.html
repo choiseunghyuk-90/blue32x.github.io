@@ -82,5 +82,16 @@ use-site-title: true
 {% assign nextItemIndex = currentItemIndex | plus: 1 %}
 {% assign nextPost = site.infras[nextItemIndex] %}
 {% endif %}
-
+<div id="post-nav">
+  {% if prevPost.url %}
+  <a class="prev" rel="prev" href="{{ prevPost.url }}">
+    <span>&lt; {{ prevPost.title }}</span>
+  </a>
+  {% endif %}
+  {% if nextPost.url %}
+  <a class="next" rel="next" href="{{ nextPost.url }}">
+    <span>{{ nextPost.title }} &gt;</span>
+  </a>
+  {% endif %}
+</div>
 
