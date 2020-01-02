@@ -158,6 +158,8 @@ kramdown:
 collections:
   infras:
     output: true
+  algos:
+    output: true
 
 
 # Default YAML values (more information on Jekyll's site)
