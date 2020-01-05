@@ -27,6 +27,7 @@ navbar-links:
   Practice:
     - infra: "infra"
     - algorithm: "algo"
+    - opensource: "opensource"
   Resources:
     - GitHub Pages: "http://www.naver.com"
 
@@ -148,30 +149,29 @@ title-separator: "-"
 timezone: "Asia/seoul"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
-paginate: 5
+#permalink: /:year-:month-:day-:title/
+paginate: off
 
 kramdown:
   input: GFM
 
 # Collections
-collections:
-  infras:
-    output: true
-    permalink: /:collection/:title/
-  algorithm:
-    output: true
-    permalink: /:collection/:title/
+#collections:
+#  infras:
+#    output: true
+#    permalink: /:collection/:title/
+#  algorithm:
+#    output: true
+#    permalink: /:collection/:title/
 
-gems:
-  - jekyll-paginate-v2
 
 pagination:
   enabled: true
-  per_page: 2
+  per_page: 5
   limit: 0
   sort_field: "date"
   sort_reverse: true
+  permalink: '/page/:num/'
 
 # Default YAML values (more information on Jekyll's site)
 defaults:

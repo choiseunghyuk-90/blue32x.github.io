@@ -1,7 +1,9 @@
 ---
 layout: post
 title: docker setting
-categories: [infra]
+category:
+    - infra
+
 ---
 
 ## Container to image

@@ -1,7 +1,9 @@
 ---
 layout: post
 title: About GitHub
-categories: [infra]
+category:
+    - infra
+
 ---
 
 About GitHub

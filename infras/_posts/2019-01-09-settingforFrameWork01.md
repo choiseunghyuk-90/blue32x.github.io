@@ -1,7 +1,8 @@
 ---
 layout: post
 title: frameworksetting01
-categories: [infra]
+category:
+    - infra
 ---
 
 환경셋팅(1)
