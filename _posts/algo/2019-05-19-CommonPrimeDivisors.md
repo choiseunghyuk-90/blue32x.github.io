@@ -1,3 +1,9 @@
+---
+layout: post
+title: 코딜리티
+categories: [algo]
+---
+
 코딜리티 Lesson 12
 --- 
 1. 문제

@@ -1,3 +1,9 @@
+---
+layout: post
+title: 코딜리티
+categories: [algo]
+---
+
 프로그래머스 : 다리를 지나가는 트럭
 ---
 1. 문제
