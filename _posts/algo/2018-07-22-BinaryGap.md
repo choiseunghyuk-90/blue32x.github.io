@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 코딜리티
-categories: [algo]
+categories:
+    - algo
 ---
 코딜리티 Lesson 1
 --- 
