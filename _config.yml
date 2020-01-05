@@ -150,7 +150,6 @@ timezone: "Asia/seoul"
 markdown: kramdown
 highlighter: rouge
 #permalink: /:year-:month-:day-:title/
-paginate: off
 
 kramdown:
   input: GFM
