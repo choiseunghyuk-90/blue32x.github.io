@@ -196,6 +196,9 @@ link-tags: true
 exclude:
   - CHANGELOG.md
   - CNAME
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
   - LICENSE
   - README.md
   - Vagrantfile
